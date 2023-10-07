@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConverterTask</title>
+    <link rel="stylesheet" href="/currency_Converter_Calculator/converter.css">
+</head>
+<body>
+   <section class="mainTag">
+    <div id="head-info">
+        <h4>
+            Naira Exchange Rates by nairatoday.com
+       </h4>
+  </div>
+   <section class="inputSection">
+     <select name="" class="conversion_rates" onChange="changeConversion(event)">
+            
+     </select>
+
+    <div class="conversion_text"> </div>
+
+    <section>
+        <input type="number" name="" class="naira_input input-two" placeholder="Naira" onkeyup="calculateCurrency(event)">
+        <label for="NGN (N)">NGN(N)</label>
+        <input  type="number" class="foreign_currency_input input-two" placeholder="Foreign Currency" onkeyup="calculateNaira(event)">
+
+        <Select class="currencies" onChange="changeCurrency(event)"></Select>
+    </section>
+
+    <div class="button-div">
+        <p>Check our website <a href="">nairatoday.com</a> for more forex related news and 
+        informatiom</p>
+        <button>Add to website</button>
+    </div>
+   </section>
+       
+   </section> 
+   <script src="/currency_Converter_Calculator/converter.js"></script>
+</body>
+</html>
